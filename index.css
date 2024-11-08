@@ -13,6 +13,7 @@
     src: url("/fonts/Montserrat-Bold.ttf");
   }
 
+
   .maincontainer {
         height: 3877px;
         max-width:1280px;
@@ -20,7 +21,8 @@
     }
     .first {
         max-width: 1280px;
-height: 50px;
+/* height: 50px; */
+margin-top:24px;
 border: 1px solid red;
 display: flex;
 justify-content: center;
@@ -68,6 +70,7 @@ width: 160px;
     .third-header h1 {
         width: 86px;
 height: 24px;
+cursor: default;
 margin: 0;
 font-family: "Gilroy";
 font-size: 20px;
@@ -80,6 +83,7 @@ text-align: left;
     .third-header h2{
         width: 121px;
 height: 24px;
+cursor: default;
 margin: 0;
 font-family: "Gilroy";
 font-size: 20px;
@@ -94,6 +98,7 @@ color: #D3D3D3;
 height: 24px;
 font-family: "Gilroy";
 font-size: 20px;
+cursor: default;
 font-weight: 700;
 line-height: 24.18px;
 letter-spacing: 0.02em;
@@ -107,6 +112,7 @@ height: 24px;
 font-family: "Gilroy";
 font-size: 20px;
 margin: 0;
+cursor: default;
 font-weight: 700;
 line-height: 24.18px;
 letter-spacing: 0.02em;
@@ -121,6 +127,8 @@ color: #D3D3D3;
         opacity: 0px;       
 background: #F3F3F3;
 display: flex;
+position: relative;
+cursor: pointer;
     }
     .button h3 {
         margin: auto;
@@ -137,17 +145,24 @@ color: #010740;
     width: 515px;
 height: 299px;
 position: relative;
+display: flex;
+flex-wrap: wrap;
+align-content: space-between;
 top: 190px;
 left: 80px;
 }
 .second-sec-first {
     width: 515px;
     height: 220px ;
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 .second-sec-first h1 {
     width: 376px;
 height: 71px;
 margin: 0;
+cursor: default;
 font-family: "Montserrat";
 font-size: 58px;
 font-weight: 800;
@@ -162,6 +177,7 @@ font-weight: 800;
 line-height: 70.7px;
 text-align: left;
 color: #67AEFF;
+cursor: default;
 }
 .second-sec-first h2 span{
     font-family: "Montserrat";
@@ -169,6 +185,7 @@ color: #67AEFF;
     font-weight: 800;
     line-height: 70.7px;
     text-align: left;
+    cursor: default;
     color: #9D67E5;
 }
 .second-sec-first h2 {
@@ -177,6 +194,7 @@ color: #67AEFF;
     font-family: "Montserrat";
 font-size: 58px;
 font-weight: 800;
+cursor: default;
 line-height: 70.7px;
 text-align: left;
 color: #FFFFFF;
@@ -188,6 +206,7 @@ margin: 0;
 height: 68px;
 font-family: "Gilroy";
 font-size: 28px;
+cursor: default;
 font-weight: 700;
 line-height: 33.85px;
 letter-spacing: 0.02em;
@@ -197,8 +216,10 @@ color: #F3F3F3;
 .second-button{
     width: 185px;
     height: 60px;
+    position: relative;
     border-radius: 15px;
     display: flex;
+    cursor: pointer;
     background: linear-gradient(95.94deg, #9D67E5 0.32%, #67AEFF 98.86%);
 }
 .second-button h2 {
@@ -217,23 +238,26 @@ text-align: center;
 color:#FFFFFF;
 }
 .third-image {
-    height: 834px;
+  max-height: 100%;
     position: absolute;
     right: 0;
+    display: flex;
 }
 .forth-image {
     width: 414.24px;
 height: 504.48px;
-position: absolute;
-bottom: -43px;
+
+}
+.box {
+    display: flex;
+    padding: 0 80px;
+    position: relative;
+    bottom: 114px;
+    justify-content: center;
 }
 #section-second {
-    width: 1120px;
-height: 290px;
+    padding: 28px 43px 45px 44px;
 border-radius: 25px ;
-position: absolute;
-left: 80px;
-bottom: -183px;
 border: 3px solid #5D66B1;
 background: linear-gradient(93.08deg, rgba(1, 5, 45, 0.65) 0.01%, rgba(1, 5, 45, 0.75) 100%);
 backdrop-filter: blur(25px);
@@ -243,9 +267,8 @@ align-items: center;
 }
 .inner-section{
     width: 1033px;
-    height: 217px;
     border: 1px solid red;
-    gap: 63px;
+justify-content: space-between;
     display: flex;
 }
 #inner-first {
@@ -264,6 +287,7 @@ justify-content: space-between;
     width: 281px;
     height: 103px;
     display: flex;
+    cursor: default;
     flex-direction: column;
     justify-content: space-between;
 /* border: 1px solid greenyellow; */
@@ -311,7 +335,8 @@ color: #D3D3D3;
 .forth-inner{
 width: 284px;
 height: 212px;
-border: 1px solid red;
+cursor: default;
+/* border: 1px solid red; */
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -325,12 +350,12 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 .sixth-inner {
     width: 189px;
     height: 51px;
-    border: 1px solid royalblue;
+    /* border: 1px solid royalblue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -365,4 +390,311 @@ line-height: 19.34px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #D3D3D3;
+}
+#inner-seven {
+ cursor: default;
+    width: 342px;
+    height: 217px;
+    /* border:1px solid greenyellow ; */
+}
+.fifth-image {
+    width:65px;
+}
+.seven-inner {
+    width: 342px;
+    height: 136px;
+    /* border: 1px solid red; */
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.inner-eight{
+width: 209px;
+height: 65px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* border: 1px solid khaki; */
+}
+.inner-eight h3 { 
+    width: 209px;
+height: 58px;
+font-family: "Montserrat";
+font-size: 23px;
+margin: 0;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+}
+.seven-inner hr {
+    width: 116px;
+height: 2px;
+margin: 0;
+border-radius: 5px;
+background-color: #FFFFFF;
+}
+.seven-inner h6 {
+    width: 342px;
+    height: 57px;
+margin: 0;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #D3D3D3;        
+}
+.second-main-container {
+    width: auto;
+    height: 2880px;
+    border: 1px solid green;
+}
+.about img {
+    width: 562.22px;
+    height: 336.28px;
+}
+.second-con {
+    width: 554px;
+    height: 237px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containt-image {
+    display: flex;
+    gap: 53px;
+    top: -115px;
+    margin-top: 62px;
+    position: relative;
+    align-items: center;
+}
+.containt-image h6  {
+    width: 434px;
+    height: 114px;
+    margin-top: 0px;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom:0 ;
+color: #D3D3D3;        
+}
+.second-box-last {
+    width: 554px;
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.inner-second-box {
+    width: 116px;
+    height: 82px;
+}
+.inner-second-box h2 {
+    width: 116px;
+height: 59px;
+font-family: "Montserrat";
+font-size: 48px;
+font-weight: 800;
+margin: 0;
+line-height: 58.51px;
+letter-spacing: 0.01em;
+background: linear-gradient(106.51deg, #9D67E5 0%, #67AEFF 82.81%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+text-align: left;
+}
+.inner-second-box h3 {
+    width: 108px;
+height: 29px;
+margin: 0;
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+}
+.inner-third-box {
+    width: 185px;
+    height: 88px;
+}
+.inner-third-box h4 {
+    width: 185px;
+    height: 59px;
+   margin: 0;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.51px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background: linear-gradient(106.51deg, #9D67E5 0%, #67AEFF 82.81%);
+    -webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.inner-third-box h5 {
+    width: 178px;
+height: 29px;
+margin: 0;
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: left;;
+color: rgba(255, 255, 255, 1);
+}
+.inner-third-forth {
+    width: 137px;
+    height: 117px;
+}
+.inner-third-forth h5 {
+    width: 63px;
+    height: 59px;
+    font-family: "Montserrat";
+font-size: 48px;
+margin: 0;
+position: relative;
+left: 27px;
+font-weight: 800;
+line-height: 58.51px;
+letter-spacing: 0.01em;
+text-align: left;
+background: linear-gradient(106.51deg, #9D67E5 0%, #67AEFF 82.81%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.inner-third-forth h6 {
+    width: 137px;
+height: 58px;
+margin: 0;
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+.purple img {
+    width: 414.24px;
+    height: 504.48px;
+    position: absolute;
+    top: 0;
+}
+.last-heading {
+    height: 88px;
+    position: relative;
+    top: -61px;
+    left: 119px;
+    width: 596px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.heading-first {
+    width: 127px;
+height: 88px;
+font-family: "Montserrat";
+font-size: 36px;
+font-weight: 800;
+line-height: 43.88px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.heading-first h5 {
+    font-family: "Montserrat";
+font-size: 36px;
+font-weight: 800;
+line-height: 43.88px;
+letter-spacing: 0.01em;
+margin: 0;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.heading-first span {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.88px;
+    letter-spacing: 0.01em;
+    text-align: left;    
+color: rgba(103, 174, 255, 1);
+}
+.new-child h3  {
+    width: 434px;
+    height: 38px;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.34px;
+    margin: 0;
+    letter-spacing: 0.02em;
+    text-align: left;
+color: rgba(211, 211, 211, 1);        
+}
+.parent{
+    height: 403px;
+    width: 1029px;
+    border: 1px solid red;
+}
+.first-child {
+    width: 315px;
+height: 340px;
+display: flex;
+position: relative;
+align-items: end;
+border: 0.5px solid rgba(103, 174, 255, 0.2);
+}
+.second-child {
+    width: 315px;
+height: 325px;
+
+border-radius: 15px;
+background: rgba(1, 5, 45, 1);
+}
+.first-circle {
+    position: absolute;
+    top: 0;
+ left: 25px;
+}
+.third-child {
+    height: 58px;
+    width: 168px;
+}
+.third-child h3 {
+    width: 168px;
+    height: 58px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.26px;
+    letter-spacing: 0.01em;
+    text-align: left;
+color: rgba(255, 255, 255, 1);    
+}
+.third-child h4 {
+    width: 249px;
+height: 114px;
+top: 1819px;
+left: 144px;
+gap: 0px;
+opacity: 0px;
+font-family: "Gilroy";
+font-size: 16px;
+font-weight: 700;
+line-height: 19.34px;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(211, 211, 211, 1);
 }

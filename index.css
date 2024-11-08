@@ -683,7 +683,7 @@ background: rgba(1, 5, 45, 1);
     text-align: left;
 color: rgba(255, 255, 255, 1);    
 }
-.third-child h4 {
+.third-child h5 {
     width: 249px;
 height: 114px;
 top: 1819px;
@@ -697,4 +697,18 @@ line-height: 19.34px;
 letter-spacing: 0.02em;
 text-align: left;
 color: rgba(211, 211, 211, 1);
+}
+.first-one h2 {
+    width: 62px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    font-family: "Montserrat";
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 68.26px;
+    letter-spacing: 0.01em;
+    text-align: left;
+color: #0D1137BF;        
 }

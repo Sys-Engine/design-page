@@ -644,71 +644,265 @@ color: rgba(103, 174, 255, 1);
 color: rgba(211, 211, 211, 1);        
 }
 .parent{
-    height: 403px;
-    width: 1029px;
+    /* height: 403px; */
+    width: auto;
+    display: flex;
+    position: relative;
     border: 1px solid red;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.first-child {
-    width: 315px;
-height: 340px;
-display: flex;
-position: relative;
-align-items: end;
-border: 0.5px solid rgba(103, 174, 255, 0.2);
-}
-.second-child {
-    width: 315px;
-height: 325px;
 
-border-radius: 15px;
-background: rgba(1, 5, 45, 1);
+.forth-child {
+    max-width: 315px;
+    height: 403px;
+    display: flex;
+    position: relative;
+    align-items: end;
 }
-.first-circle {
+.forth-two h3 {
+position: absolute;
+top: 44px;
+right: 50px;
+width: 72px;
+height: 68px;
+margin: 0;
+font-family: "Montserrat";
+font-size: 56px;
+font-weight: 800;
+line-height: 68.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #0D113773;
+}
+.forth-first {
+background: #01052d;
+border-radius: 15px;
+padding: 96px 27px 22px 25px;
+}
+.tower {
     position: absolute;
     top: 0;
- left: 25px;
+    left: 25px;
 }
-.third-child {
+.forth-second h3 {
+    max-width: 228px;
     height: 58px;
-    width: 168px;
-}
-.third-child h3 {
-    width: 168px;
-    height: 58px;
+ margin-top:0;
+ margin-bottom: 12px;
     font-family: "Montserrat";
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 29.26px;
-    letter-spacing: 0.01em;
-    text-align: left;
-color: rgba(255, 255, 255, 1);    
+font-size: 24px;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
 }
-.third-child h5 {
-    width: 249px;
-height: 114px;
-top: 1819px;
-left: 144px;
-gap: 0px;
-opacity: 0px;
+.forth-second h4 {
+max-width: 263px;
+height: 133px;
+margin-top: 0;
+margin-bottom: 12px;
 font-family: "Gilroy";
+font-size: 17px;
+font-weight: 700;
+line-height: 19.34px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #D3D3D3;
+}
+.forth-second span {
+    font-family: "Gilroy";
 font-size: 16px;
 font-weight: 700;
 line-height: 19.34px;
 letter-spacing: 0.02em;
 text-align: left;
-color: rgba(211, 211, 211, 1);
+color: #67AEFF;
 }
-.first-one h2 {
-    width: 62px;
-    height: 68px;
+.forth-second .second-span {
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+color: #9D67E5;    
+}
+.forth-third {
+max-width: 184px;
+    display: flex;
+    left: 39px;
+    align-items: center;
+position: relative;
+    /* border: 1px solid red; */
+}
+.forth-forth {
+    width: 55px;
+    height: 55px;
+    border-radius: 27.5px ;
+    background: #67AEFFBF;
+    display: flex;
+    align-items: center;
+}
+.forth-third h5 {
+    width: 109px;
+    height: 24px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    left: 27px;
+    line-height: 24.38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+color: #FFFFFF;        
+margin: 0;
+}
+.arrow {
+    position: absolute;
+left: 145px;
+}
+.last-child {
+    max-width: 315px;
+    height: 340px;
+    display: flex;
+align-items: end;
+    position: relative;
+}
+.last-child-first {
+    border-radius: 15px;
+    padding: 96px 26px 26px 26px ;
+    background: #01052d;
+}
+.party {
     position: absolute;
     top: 0;
-    right: 35px;
+    left: 25px;
+}
+.last-child-first h3 {
+    width: 231px;
+height: 58px;
+margin-top: 0;
+margin-bottom:12px ;
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 800;
+line-height: 29.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+}
+.last-child-first h4 {
+    max-width: 263px;
+    height: 133px;
+    font-family: "Gilroy";
+font-size: 16.4px;
+margin: 0;
+font-weight: 700;
+line-height: 19.34px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #D3D3D3;
+} 
+.three h6 {
+    position: absolute;
+    top: 46px;
+    right: 50px;
+    margin: 0px;
+    width: 73px;
+height: 68px;
+font-family: "Montserrat";
+font-size: 56px;
+font-weight: 800;
+line-height: 68.26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #0D113773;
+}
+.one h6 {
+    position: absolute;
+    top: 55px;
+    right: 24px;
+    margin: 0px;
+    width: 73px;
+    height: 68px;
     font-family: "Montserrat";
     font-size: 56px;
     font-weight: 800;
     line-height: 68.26px;
     letter-spacing: 0.01em;
     text-align: left;
-color: #0D1137BF;        
+    color: #0D113773;
+}
+.first-child-new {
+    max-width: 249px;
+}
+.forth-container {
+    width: auto;
+    height: 750px;
+    display: flex;
+    position: relative;
+}
+.forth-container .circle {
+    position: absolute;
+top: -132px;
+max-width: 750px;
+}
+.circle-second {
+    width: 299px;
+    height: 132px;
+    position: absolute;
+    top: 167px;
+    left: 124px;
+    /* border: 1px solid rgb(31, 4, 4); */
+}
+.circle-second h1 {
+    width: 157px;
+height: 19px;
+margin: 0;
+font-family: "Gilroy";
+font-size: 16px;
+font-weight: 700;
+line-height: 19.34px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #9D67E5;
+}
+.circle-second h2 {
+    margin: 0;
+font-family: "Montserrat";
+font-size: 36px;
+font-weight: 800;
+line-height: 43.88px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+}
+.circle-second span {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.88px;
+    letter-spacing: 0.01em;
+    text-align: left;
+color: #67AEFF;    
+}
+.circle-third {
+    height: 38px;
+    width: auto;
+    position: absolute;
+    display: flex;
+}
+.circle-third h3 {
+    width: 532px;
+height: 38px;
+margin: 0;
+font-family: "Gilroy";
+font-size: 16px;
+font-weight: 700;
+line-height: 19.34px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #D3D3D3;
 }

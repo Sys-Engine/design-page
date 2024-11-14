@@ -1280,16 +1280,25 @@ input::placeholder :hover {
 input:hover {
     border: 2px solid #67AEFF;
 }
+.input [type="email"] img {
+    width: 18px;
+    position: absolute;
+    right: 26px;
+    top: 19px;
+    cursor: pointer;
+}
 .for-two-childs {
-    width: 540px;
+    max-width: 260px;
     height: 50px;
     display: flex;
+    position: relative;
     margin-bottom: 23px;
     justify-content: space-between;
 }
 .for-two-childs input {
     width: 230px;
     height: 50px;
+    position: relative;
 }
 .check-box {
     width: 323px;
@@ -1849,14 +1858,17 @@ display: none;
         font-size: 18px !important;
     }
 }
+@media screen and (max-width: 859px ){
+    .second-box-last {
+        width: 88% !important;
+    }
+}
 @media screen and (max-width: 859px) {
     .parent-parent {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-    .second-box-last {
-        width: auto;
-    }
+   
     .forth-container {
 height: 476px !important;
     }

@@ -1433,6 +1433,9 @@ justify-content: space-between;
     justify-content: end;
     margin-bottom: 28px;
 }
+.hamburger {
+    visibility: hidden;
+}
 .second-info h1 {
     width: 155px;
 height: 24px;
@@ -1624,11 +1627,6 @@ display: none;
         width: 559px !important;
     }
   }
-  @media screen and (max-width: 1176px) {
-    .header {
-        width: 98% !important;
-    }
-}
   @media screen and (max-width: 1071px){
 
       #box-container-one h4 {
@@ -1886,6 +1884,20 @@ display: none;
         font-size: 19px !important;
     }
 
+}
+@media screen and (max-width: 1216px) {
+    .second-image {
+        display: none;
+    }
+    .header {
+        width: 98% !important;
+    }
+    .button {
+        display: none;
+    }
+    .hamburger{
+        visibility: visible;
+    }
 }
 @media screen and (max-width: 946px) {
     .forth-inner {
@@ -2783,9 +2795,7 @@ width: 290px !important;
     }
 }
 @media screen and (max-width: 356px) {
-    .first {
-        margin-left: 6px !important;
-    }
+
 }
 @media screen and (max-width: 336px) {
     footer {

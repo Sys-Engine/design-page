@@ -1736,11 +1736,6 @@ input{
     margin-left: 21px;
     justify-content: normal;
 }
-.first-image {
-    width: 120px !important;
-    padding-right: 9px;
-    height: 48px;
-}
     .third-header {
   gap: 14px !important;
     }
@@ -1889,12 +1884,8 @@ display: none;
     .second-image {
         display: none;
     }
-    .first-another-div {
-        display: none;
-    }
     .header {
         width: 98% !important;
-        justify-content: end ;
     }
     .button {
         display: none;

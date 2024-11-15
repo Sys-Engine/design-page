@@ -2306,7 +2306,7 @@ font-size: 20px !important;
 @media screen and (max-width: 530px) {
     .new-for-input {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 0px;
         margin-bottom: 14px;
     }
 }
@@ -2634,7 +2634,7 @@ text-align: center !important;
         line-height: 18.26px !important;
     }
     .inner-third-forth h5 {
-        font-size: 41px !important;
+        font-size: 38px !important;
         line-height: 57.26px !important;
     }
 } 
@@ -2672,7 +2672,7 @@ width: 290px !important;
         left: 120px !important;
     }
     .circle-forth {
-        top: 137px !important;
+        top: 144px !important;
     }
     .circle-third h3 {
         font-size: 9.9px !important;
@@ -2687,6 +2687,11 @@ width: 290px !important;
     }
 
 } 
+@media screen and (max-width: 479px) {
+    #section-second {
+        padding: 22px 24px 22px 25px !important;
+    }
+}
 @media screen and (max-width: 330px) {
     .second-info h3{
         text-align: center ;
@@ -2709,5 +2714,8 @@ width: 290px !important;
     }
     .for-check-number h6 {
         font-size: 11px !important;
+    }
+    #box-fifth-last h3 {
+        font-size: 22px ;
     }
 }

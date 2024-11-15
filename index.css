@@ -1286,14 +1286,14 @@ input:hover {
     border: 2px solid #67AEFF;
 }
 .for-time  input{
-    max-width: 230px;
+    max-width: -webkit-fill-available;
 }
 .new-for-input {
     display: flex;
     gap: 20px;
 }
 .for-two-childs {
-    max-width: 260px;
+    /* max-width: 260px; */
     height: 50px;
     outline: non;
     display: flex;
@@ -1661,9 +1661,6 @@ display: none;
         font-size: 19px !important;
      width: 137px !important;
     }
-    .for-two-childs input {
-        width: auto !important;
-    }
 #sixth-container-box {
 padding: 0 10px;
 flex-wrap: wrap;
@@ -1673,11 +1670,7 @@ height: auto !important;
 justify-content: center !important;
 }
 .for-two-childs {
-    width: auto !important;
     gap: 20px ;
-}
-input{
-    width: -webkit-fill-available;
 }
 @media screen and (max-width: 790px) {
     .second-image {
@@ -2369,6 +2362,17 @@ font-size: 20px !important;
         flex-wrap: wrap;
         gap: 0px;
         margin-bottom: 14px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    input {
+        width: -webkit-fill-available;
+    }
+    .for-two-childs {
+        width: -webkit-fill-available;
+    }
+    .for-two-childs input {
+        width: -webkit-fill-available
     }
 }
 @media screen and (max-width: 548px){

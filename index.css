@@ -24,7 +24,7 @@
 
  
   .maincontainer {
-        max-width:1290px;
+        max-width:1280px;
         margin: auto;
     }
     .first {
@@ -40,6 +40,8 @@ position: relative;
         height: 832px;
         width: auto;
         position: relative;
+        background: #010740;
+
     }
     .first-another-div{
         display: flex;
@@ -223,6 +225,10 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #F3F3F3;
 }
+.inner-third-forth {
+position: relative;
+top: -16px;
+}
 .second-button{
     width: 185px;
     height: 60px;
@@ -254,7 +260,7 @@ color:#FFFFFF;
     display: flex;
 }
 .forth-image {
-    max-width: 414.24px;
+    width: 414.24px;
 height: 504.48px;
 }
 .box {
@@ -434,6 +440,8 @@ background-color: #FFFFFF;
 }
 .second-main-container {
     width: auto;
+    position: relative;
+    background-color: #010740;
 }
 .good img {
     max-width:97%;
@@ -553,10 +561,10 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 }
 .purple img {
-    width: 414.24px;
-    height: 504.48px;
+    width: 691.24px;
+    height: 599.48px;
     position: absolute;
-    top: 0;
+    top: -42px;
     left: 0;
 }
 .last-heading {
@@ -870,6 +878,7 @@ color: #67AEFF;
 .circle-third {
     height: 38px;
     width: auto;
+    gap: 16px;
     padding-right: 8px ;
     position: absolute;
     top: 86px;
@@ -891,6 +900,7 @@ color: #D3D3D3;
 .circle-forth {
     height: 38px;
     width: auto;
+    gap: 16px;
     position: absolute;
     top: 195px;
 left: 473px;
@@ -914,6 +924,7 @@ align-items: center;
     width: auto;
     position: absolute;
     top: 313px;
+    gap: 16px;
 left: 465px;
 display: flex;
 align-items: center;
@@ -932,6 +943,7 @@ color: #D3D3D3;
 }
 .circle-sixth {
     height: 38px;
+    gap: 16px;
     width: auto;
     position: absolute;
     top: 431px;
@@ -983,17 +995,18 @@ display: flex;
 justify-content: center;
 }
 .container-para {
-    max-width: 1038px;
+    max-width: max-content;
     cursor: default;
     height: 347px;
     gap: 42px;
+    padding-left: 34px;
     display: flex;
     justify-content: space-between;
     /* border: 1px solid red; */
 }
 .box-pink {
-    width: 249px;
-    height: 242px;
+    width: 250px;
+    height: 237px;
     padding: 30px 36px 43px 30px;
     border-radius: 15px;
     background: linear-gradient(135deg, #803DDA 0%, #165FB1 100%);
@@ -1534,6 +1547,9 @@ color: #656C92;
   .foter-first {
     padding: 0 13px;
   }
+  .container-para {
+    padding-left: 0;
+  }
   }
   @media screen and (max-width: 1224px) {
     .second-good {
@@ -1630,7 +1646,7 @@ display: none;
         font-size: 19px !important;
     }
     .inner-third-forth h5 {
-        font-size: 43px !important;
+        font-size: 36px !important;
 
     }
     .inner-third-forth h6 {
@@ -1685,6 +1701,11 @@ input{
         margin-right: 38px;
     }
 }
+@media screen and (max-width: 1030px) {
+    .containt-image {
+        height: auto;
+    }
+} 
 @media screen and (max-width: 1020px) {
     .header {
         width: 98% !important;
@@ -1966,7 +1987,21 @@ display: none;
     .second-info {
         gap: 15px !important;
     }
-   
+    .last-heading {
+        margin-top: 0 !important;
+    }
+    .last-heading {
+        margin: 37px 0 !important;
+    }
+    .heading-first h5 br {
+display: none;
+    }
+    .heading-first h5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
     .new {
         display: flex;
         justify-content: center;
@@ -2023,6 +2058,7 @@ font-size: 13px !important;
     
     .purple img {
         left: 0;
+        max-width: min-content;
     }
     .circle-sixth {
         top: 305px;
@@ -2031,6 +2067,7 @@ font-size: 13px !important;
     .circle-sixth h6 {
         font-size: 11px;
     }
+
 }
 @media screen and (max-width: 842px) {
     .second-good {
@@ -2048,6 +2085,12 @@ font-size: 13px !important;
 }
 .inner-eight {
     margin-top: 23px;
+}
+.forth-image {
+    max-width: 414px !important;
+}
+.containt-image {
+    height: auto;
 }
 }
 @media screen and (max-width: 750px) {
@@ -2176,6 +2219,9 @@ display: flex !important;
         width: auto;
         left: 0 !important;
 justify-content: center;
+    }
+    .second-con {
+        height: auto;
     }
     .new-child h3 {
         text-align: center ;
@@ -2315,11 +2361,17 @@ font-size: 20px !important;
         height: auto;
         font-size: 22px !important;
     }
+    .inner-third-forth {
+        top: 0;
+    }
 }
 @media screen and (max-width: 518px){
 
        .inner-third-box {
         width: auto;
+       }
+       .circle-third {
+        gap: 9px;
        }
     
 }
@@ -2346,14 +2398,17 @@ font-size: 20px !important;
    .circle-forth {
     left: 174px !important;
     top: 144PX !important;
+    gap: 9px;
    }
    .circle-fifth {
     left: 172px !important;
     top: 191px !important;
+    gap: 9px;
    }
    .circle-sixth {
     left: 140px !important;
     top: 266px !important;
+    gap: 9px;
    }
    .forth-container {
     height: 387px !important;
@@ -2500,6 +2555,15 @@ line-height: 20px;
         display: flex;
 flex-wrap: wrap;
     }
+    .circle-forth {
+        gap: 0px;
+    }
+    .circle-third {
+        gap: 0px;
+    }
+    .circle-fifth{
+        gap: 0;
+    }
 
     .inner-third-box h4  {
 width: auto;
@@ -2602,6 +2666,11 @@ width: auto;
 text-align: center !important;
     }
 }
+@media screen and (max-width: 409px) {
+    .forth-image {
+        max-width: max-content !important;
+    }
+} 
 @media screen and (max-width: 405px) {
     .foter-first {
         margin: 0 !important;
@@ -2619,11 +2688,15 @@ text-align: center !important;
     .second-con {
         padding: 0 4PX ;
     }
+   
 }
 @media screen and (max-width: 399px) {
 
     .inner-second-box h2 {
         font-size: 28px !important;
+    }
+    .forth-image {
+        max-width: max-content !important;
     }
     .inner-second-box h3 {
         font-size: 14px !important;
@@ -2634,7 +2707,7 @@ text-align: center !important;
         line-height: 18.26px !important;
     }
     .inner-third-forth h5 {
-        font-size: 38px !important;
+        font-size: 35px !important;
         line-height: 57.26px !important;
     }
 } 

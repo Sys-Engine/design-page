@@ -1889,8 +1889,12 @@ display: none;
     .second-image {
         display: none;
     }
+    .first-another-div {
+        display: none;
+    }
     .header {
         width: 98% !important;
+        justify-content: end ;
     }
     .button {
         display: none;
